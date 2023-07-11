@@ -1,0 +1,35 @@
+Wire List
+
+<<< Component List >>>
+Orange                          D1             LED0603 O
+Orange                          D2             LED0603 O
+1X2 Header                      J1             Header 1x2
+360R                            R1             R0805
+360R                            R2             R0805
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] +3V3
+        J1         1       +              PASSIVE     1X2 Header
+        R1         2       2              PASSIVE     360R
+        R2         2       2              PASSIVE     360R
+
+[00002] DIODE1
+
+[00003] DIODE2
+
+[00004] GND
+        D1         1       1              PASSIVE     Orange
+        D2         1       1              PASSIVE     Orange
+        J1         2       -              PASSIVE     1X2 Header
+
+[00005] NetD1_2
+        D1         2       2              PASSIVE     Orange
+        R1         1       1              PASSIVE     360R
+
+[00006] NetD2_2
+        D2         2       2              PASSIVE     Orange
+        R2         1       1              PASSIVE     360R
+
