@@ -5,7 +5,8 @@ Basic LED project
 
 
 Software Used: Altium Designer 22
-
+<br>
+<p>"To design the schematic, begin with the.SchDoc. Add the libraries' (.SchLib and.PcbLib) components. To create the netlist, compile the project using the.PrjPcb file. Next, use the.PcbDoc file to transfer the schematic to the PCB layout.</p>
 Download Link: https://www.altium.com/products/downloads
 
 To understand Step by Step by Robert Feranec
